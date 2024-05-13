@@ -4,7 +4,7 @@ body{
   font-family: "Spline Sans";
   color: #218B82;
   line-height: 1.7;
-  background-color:  #f9edd2 ;
+  background-color:  white ;
 
 }
 
@@ -36,7 +36,7 @@ a:hover{
   background-color: #218B82;
 }
 .btn-brand{
-  color: #218B82;
+  color: white;
   font-weight: 600;
   border-color: #218B82;
 }
@@ -45,3 +45,40 @@ a:hover{
   background-color: #04312d;
   border-color: #02211e;
 }
+
+/* Slider */
+.slide-1{
+  background: url(../img/p5.jpg) center no-repeat;
+  background-size: cover;
+  width: 100%;
+ }
+
+.slide-2 {
+  background: url(../img/p4.avif) center no-repeat;
+  background-size: cover;
+  width: 100%; 
+   
+}
+
+#heroSlider h6::after,
+#heroSlider h6::before {
+  content: " ";
+  width: 20px;
+  height: 4px;
+  background-color: white;
+  display: inline-block;
+  margin: 10px;
+
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+  background-color: rgba(0,0,0,0.6);
+  width: 40px;
+  height: 70px;
+  margin: auto;
+
+
+}
+
+
