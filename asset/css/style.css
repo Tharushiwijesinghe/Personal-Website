@@ -13,26 +13,16 @@ h1,h2,h3,h4,h5,h6{
   color: black;
 }
 
-<<<<<<< Updated upstream
  a{
   color:black;
-=======
-/* a{
-  color: black;
->>>>>>> Stashed changes
   text-decoration: none;
   transition: all 0.4s;
   font-weight: 600;
 }
 
 a:hover{
-<<<<<<< Updated upstream
   color:  #F58d17;
 } 
-=======
-  color:  #218B82;
-} */
->>>>>>> Stashed changes
 
 /* logo */
 .logo img{
