@@ -28,18 +28,36 @@ a:hover{
 .logo img{
   width: 230px;
 }
+img
+{
+  width: 100%;
+
+}
+
+
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.shadow-on-hover{
+  transition: all 0.4s;
+}
+
+.shadow-on-hover:hover{
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
 
 /* button */
 .btn{
   border-radius: 0%;
   padding: 14px 38px;
   background-color: #F58d17;
-  border-color: #F58d17
- 
-}
+  border-color: #F58d17;
+ }
 
 .btn-brand{
-  color: #ee830a;
+  color: white;
   font-weight: 600;
   background-color: #F58d17;
   border-color: #F58d17
@@ -52,18 +70,18 @@ a:hover{
 }
 
 /* Slider */
-.slide-1{
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/p5.jpg) center no-repeat;
+.slide-1 {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/p17.webp) center no-repeat;
   background-size: cover;
   width: 100%;
- }
+}
 
 .slide-2 {
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/p4.avif) center no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/p4.avif) center no-repeat;
   background-size: cover;
-  width: 100%; 
-   
+  width: 100%;
 }
+
 
 #heroSlider h6::after,
 #heroSlider h6::before {
@@ -88,7 +106,7 @@ a:hover{
 
 /*footer*/
 footer{
-  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/p9.jpg) center no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)), url(../img/p18.webp) center no-repeat;
   background-size: cover;
   /* width: 100%; */
   padding-top: 100px;
@@ -115,5 +133,55 @@ footer .social-links a{
   border-top: 1px solid rgba(255, 255, 255, 0.4);
 }
 
+/* about */
+#about .divider
+{
+  width: 450px;
+  height: 2px; 
+  display: block;
+  background-color: #F58d17;
+  margin-top: -20px; ;
+}
 
+/*intro text*/
+.intro-text
+{
+  margin-bottom: 40px;
+  text-align: center;
+}
 
+.intro-text p
+{
+  max-width: 500px;
+  margin: 16px auto 0 auto;
+
+}
+
+/*Menu*/
+#menu .nav-pills .nav-link
+{
+  background-color: rgb(255, 255, 255);
+  margin-left: 8px;
+  margin-right: 8px;
+  color: black;
+  border-radius: 55px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+
+}
+#menu .nav-pills .nav-link.active
+{
+  background-color: #F58d17;
+  color: white;
+
+} 
+
+.menu-item .stars
+{
+  color: #F58d17;
+
+}
+
+/* .menu-item .img
+{
+  height: 10px;
+} */
