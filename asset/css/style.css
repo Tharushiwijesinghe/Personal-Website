@@ -262,3 +262,51 @@ footer .social-links a{
   height: 47px;
   
 }
+
+/* insta-posts */
+.insta-posts {
+  position: relative;
+}
+.insta-posts .insta-btn{
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 26px;
+  transform: translate(-50% -50%);
+  opacity: 0;
+
+}
+
+.insta-posts img{
+  transition: all 0.4s;
+  height: 400px;
+  width: 400px;
+}
+
+.insta-posts:hover img{
+  transform: scale(1.2);
+}
+
+.insta-posts:hover .insta-btn{
+ opacity: 1;
+}
+
+.blog-post img{
+  width: 40%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px){
+  .blog-post{
+    flex-direction: column;
+  }
+  .blog-post img{
+    width: 100%;
+  }
+}
