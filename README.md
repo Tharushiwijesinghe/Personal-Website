@@ -16,9 +16,7 @@ Welcome to TaST, a beautifully designed restaurant website that brings the authe
     Bootstrap 5
 
 📂 Project Structure
-
-,,,
- /project-root
+/project-root
 │── /asset
 │   ├── /css
 │   │   ├── style.css
@@ -26,3 +24,4 @@ Welcome to TaST, a beautifully designed restaurant website that brings the authe
 │── /font-awesome
 │── index.html
 │── README.md
+
