@@ -15,13 +15,4 @@ Welcome to TaST, a beautifully designed restaurant website that brings the authe
     CSS3
     Bootstrap 5
 
-📂 Project Structure
-/project-root
-│── /asset
-│   ├── /css
-│   │   ├── style.css
-│   ├── /img (carousel images here)
-│── /font-awesome
-│── index.html
-│── README.md
 
