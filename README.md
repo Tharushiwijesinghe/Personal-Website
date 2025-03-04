@@ -1,12 +1,14 @@
 🍽️ TaST - Authentic Sri Lankan Cuisine
 
-Welcome to TaST, a beautifully designed restaurant website that brings the authentic Sri Lankan culinary experience to the heart of Down-South. Built with HTML, CSS, and Bootstrap, this project features a responsive hero slider (carousel) to showcase the restaurant's offerings.
+Welcome to TaST, a beautifully designed restaurant website that brings the authentic Sri Lankan culinary experience to the heart of Down-South. Built with HTML, CSS, and Bootstrap, this project features a responsive hero slider to showcase the restaurant's offerings.
+
 🚀 Features
 
 ✅ Bootstrap Carousel – Dynamic image slider for showcasing dishes
 ✅ Responsive Design – Works seamlessly on all devices
 ✅ Modern UI – Clean and stylish interface
-✅ Call to Action (CTA) – Reservation button for easy booking
+
+
 🛠️ Technologies Used
 
     HTML5
@@ -14,6 +16,7 @@ Welcome to TaST, a beautifully designed restaurant website that brings the authe
     Bootstrap 5
 
 📂 Project Structure
+
  /project-root
 │── /asset
 │   ├── /css
